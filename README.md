@@ -296,8 +296,79 @@ tested models, BPR will no longer be used as a baseline comparison in this exper
 model faced similar issues when using the BPR loss function, as seen in Figure 6, and was also not
 used as a baseline for comparison.
 
+<div align="center">
+  
+![Figure_1](https://github.com/user-attachments/assets/24dcd5a0-8729-4556-8aeb-f91811dd59a5) 
+
+Figure 1: Proposed model training.
+
+</div>
+
+<br />
+
+<div align="center">
+
+![Figure_2](https://github.com/user-attachments/assets/063fd9a6-8e95-4081-b5d7-c541582ad901)
+
+Figure 2: GCMC model training.
+
+</div>
+
+<br />
+
+<div align="center">
+
+![Figure_3](https://github.com/user-attachments/assets/e32bca9d-1d6d-4475-91bf-a6b1e2a4d2f8)
+
+Figure 3: DMF model training.
+
+</div>
+
+<br />
+
+<div align="center">
+
+![Figure_4](https://github.com/user-attachments/assets/5a991e4c-9943-4720-a3f4-947a1d1c8219)
+
+Figure 4: MF model training.
+
+</div>
+
+<br />
+
+<div align="center">
+
+![Figure_5](https://github.com/user-attachments/assets/c51cf75a-b811-4c12-9fe8-0e3e4c0fcc36)
+
+Figure 5: BPR model training.
+
+</div>
+
+<br />
+
+<div align="center">
+
+![Figure_6](https://github.com/user-attachments/assets/10846df6-7872-4e3f-8e44-15bca20ff9c1)
+
+Figure 6: NeuMF model training.
+
+</div>
+
 For each model, the NDCG@10 and post meal blood glucose frequencies were calculated and used
 as metrics for model comparison. The results for each model can be found in Table 1.
+
+<div align="center">
+
+Table 1: Baseline comparison results
+
+|**Model**|**NDCG@10**|**Hyper2_Freq**|**Hyper1_Freq**|**Normal_Freq**|**Hypo1_Freq**|**Hypo2_Freq**|
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|**Proposed**|0.767|29.1%|24.5%|36.7%|4.2%|5.5%|
+|**DMF**|1.0|41%|15.2%|35.8%|4%|4%|
+|**MF**|0.833|31.6%|16.8%|40.2%|5.6%|5.8%|
+|**GCMC**|0.9|35.2%|14%|41.2%|4.4%|5.2%|
+
+</div>
 
 ## Discussion
 There are two important limitations to address regarding the testing results. The first one is on the
